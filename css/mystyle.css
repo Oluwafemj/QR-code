@@ -1,0 +1,41 @@
+* { 
+   box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: outfit;
+}
+
+main{
+    border-radius: 15px;
+    width: 250px;
+    height: 380px;
+    margin: 95px auto;
+    padding: 5px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.con p:nth-child(1){
+    font-weight: 700;
+}
+
+img{
+    width: 220px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+    margin: 10px 20px;
+}
+
+div{
+    font-weight: 900;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
